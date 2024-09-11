@@ -1,0 +1,39 @@
+body {
+    background-color: white; /* grey bg color */
+    
+  }
+
+.carousel-inner {
+    height: 400px; /* Adjust this value as needed */
+  }
+  
+  .carousel-inner img {
+    width: 100%; /* Ensure the image fills the width of the carousel */
+    height: 531px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Cover the container while preserving aspect ratio */
+  }
+
+.card-body {
+    text-align: center;
+    background-color: ghostwhite;
+}
+
+/* Emily Section */
+#emily-section {
+  background-color: gainsboro;
+  color: var(--text-color);
+  padding: 3rem 0;
+}
+
+/* Dark Section */
+#dark-section {
+  background-color: var(--bg-color);
+
+}
+
+.footer {
+  
+  color: white; /* Text color */
+  padding: 5px 0; /*mt , mb */
+  font-size: 0.875rem; /* font size */
+}
